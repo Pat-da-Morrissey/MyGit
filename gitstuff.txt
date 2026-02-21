@@ -1,0 +1,61 @@
+Basic Git Commands:
+-------------------
+
+git init:
+ - this takes the current folder and initizes/prepares it for git changes
+
+git add:
+ - this command will tell git what files you want to save followed by the name of the file(s)
+ - if you want to save everything then only add '.'
+
+git commit:
+ - this command will finilize your save but you need to add a message
+ - type git commit -m followed by a "message" (in quotes) to describe your change
+ - github likes it if you add an emoji in your message
+
+git log:
+ - this command will show you the log of all saves and branches
+ - you can go back to older saves
+
+git branch:
+ - shows you the log of branches
+
+git status:
+ - shows you all the files that have been changed, shows what's been added and not
+ - VERY USEFUL
+
+The following is for github:
+----------------------------
+
+*First make sure you go on github and create a new repository for your project*
+
+git remote add origin git@github.com:your_git_username/name_of_your_git.git:
+ - this command will upload/link your current git into your github repository
+
+Copy and paste these commands to instantly upload code:
+git branch -M main
+git push -u origin main
+
+Or you can you use this specific command instead:
+
+git push -u origin name_of_branch:
+ - this will push/save your progress onto github repository
+
+git pull origin master:
+ - this command will pull the new changes from your github repository into your PC
+ - if changes were made to your git repository (like edits or merging) and you want to save it onto your personal git
+
+The following is for branches:
+------------------------------
+
+*Every git has a master branch this contains your main saves*
+*If your working on some elses coding project or want to "branch out" and experiment with the code you can create a branch seperate from the master*
+*If linked to github you can view and work on branches there*
+
+git checkout -b name_of_branch:
+ - this will create a new branch for you to work on
+ - from here you can continue to add and commit your work and it will save on this new branch
+
+git merge:
+ - this command followed by the name of your branch will merge the branch onto your master branch
+ - you can also merge from github if you make a pull request and it's approved
