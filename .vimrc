@@ -2,7 +2,7 @@
 
 set nocompatible
 
-"--tabs"
+"--indenting"
 filetype plugin indent on
 set autoindent
 set expandtab
